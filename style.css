@@ -1,0 +1,19 @@
+.box{
+width: 290px;
+height: 310px;
+background-color: red;
+animation: color 3s infinite;
+margin-top: 90px;
+margin-left: 40px;
+}
+
+@keyframes color{
+    0%{
+transform: translateX(0);
+background-color: red;
+    }50%{
+        transform: translateX(100px);
+        background-color: blue;
+    }
+    
+}
